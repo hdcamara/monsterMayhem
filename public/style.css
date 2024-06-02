@@ -1,0 +1,36 @@
+/* Apply a font and background color to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Style the game board */
+#game-board {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto; /* Center the game board horizontally */
+    display: flex;
+    flex-wrap: wrap; /* Allow the cells to wrap to the next line */
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+}
+
+/* Style each cell within the game board */
+#game-board .cell {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000; /* Give each cell a border */
+    box-sizing: border-box; /* Include the border in the cell's total width and height */
+}
+
+/* Style the buttons */
+button {
+    display: block;
+    margin: 20px auto; /* Center the button horizontally */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer; /* Change the cursor when hovering over the button */
+}

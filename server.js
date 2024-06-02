@@ -12,7 +12,7 @@ const game = new MonsterMayhem(10, 2);
 // Define a route handler for GET requests made to the root path ('/')
 app.get('/', (req, res) => {
     // You might return the current game state here
-    res.send('Welcome to Monster Mayhem!');
+    res.send('Welcome to MonsterMayhem!');
 });
 
 // Define a route handler for POST requests made to '/move'
